@@ -1,0 +1,43 @@
+version 3
+run General-0-20240111-01:06:48-8252
+attr configname General
+attr datetime 20240111-01:06:48
+attr datetimef 20240111-010648
+attr experiment General
+attr inifile A2ini.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Assignment2
+attr processid 8252
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Assignment2
+
+par Assignment2.laptop1.out.channel typename "\"ned.DelayChannel\""
+par Assignment2.laptop1.out.channel disabled false
+attr mutable ""
+par Assignment2.laptop1.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par Assignment2.router.out.channel typename "\"ned.DelayChannel\""
+par Assignment2.router.out.channel disabled false
+attr mutable ""
+par Assignment2.router.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par Assignment2.laptop2.out.channel typename "\"ned.DelayChannel\""
+par Assignment2.laptop2.out.channel disabled false
+attr mutable ""
+par Assignment2.laptop2.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par Assignment2.laptop1 typename "\"WirelessHost\""
+par Assignment2.laptop2 typename "\"WirelessHost\""
+par Assignment2.router typename "\"WirelessHost\""
+par Assignment2 typename "\"Assignment2\""
+
